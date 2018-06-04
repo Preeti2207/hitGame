@@ -42,7 +42,14 @@ function releaseRandomObject() {
     }
 
     // push objects to the array
-    objects.push(object);
+    var i , j;
+    objects.push({
+        id : i + "," + j,
+         x: x,
+         y:y,
+        radius: radius
+
+    });
 }
 
 
@@ -81,11 +88,16 @@ function animate() {
         ctx.fillStyle = object.type;
         ctx.fill();
         
-
     }
 
-
+    
 }
+
+(ctx.isPointInPath(x,y)) 
+        {
+        alert("circle clicked" + object.id);
+        }
+
 }
 
 
