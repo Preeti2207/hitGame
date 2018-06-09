@@ -1,0 +1,29 @@
+#background {
+    background: #000000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+}
+
+body{
+background: black;
+}
+.score{
+        position: fixed;
+        right:35%;
+        top:40%;
+        color:#FFF;
+        font-size:200px;
+        z-index:999;
+}
+
+.enemy{
+    background: yellow;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 40px;
+}
