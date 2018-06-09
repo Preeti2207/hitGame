@@ -1,45 +1,17 @@
+
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="index.js">
-		</script>
-		<style>
-			body {
-				background: "white";
-			}
-			canvas {
-				display: block;
-				background: #000000;
-				height: 100%;
-				width: 100%;
-				position: absolute;
-				left: 0px;
-				right: 0px;
-				top: 10%;
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <script src="script.js"></script>
+</head>
 
-			}
-			#gameControl {
-				height: 100%;
-				width: 100%;
-				 
-  			}
-  			.score{
-					position: absolute;
-					right:2%;
-					top:10px;
-					color:#000;
-					font-size:18px;
-					z-index:999;
-        }
-		</style>
-	</head>
-	<body>
-		<div id = "gameControl">
-				<div class="score">
-   				  Score : <span id="score">0</span>
-				 </div>
-		<canvas id="canvas" ></canvas>
-		</div>
-	</body>
+<body>
+    <div id="background">
+    <div class ="score">
+           Score : <span id="score_count">0</span>
+    </div>
+    </div>
+</body>
 </html>
